@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>정성연 | Resume</title>
+
+    <!-- Pretendard -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: "Pretendard", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="bg-zinc-950 text-zinc-100">
+
+    <!-- ===================================================== -->
+    <!-- 전체 컨테이너 -->
+    <!-- ===================================================== -->
+    <div class="max-w-7xl mx-auto px-6 py-16">
+
+        <!-- 2단 레이아웃 -->
+        <div class="grid grid-cols-1 lg:grid-cols-[320px_1fr] gap-16">
+
+            <!-- ================================================= -->
+            <!-- LEFT SIDEBAR -->
+            <!-- ================================================= -->
+            <aside class="lg:sticky lg:top-16 h-fit">
+
+                <!-- 프로필 카드 -->
+                <div class="space-y-6">
+
+                    <!-- 프로필 사진 -->
+                    <img src="assets/profile.jpg" alt="프로필"
+                        class="w-40 h-40 rounded-3xl object-cover border border-zinc-800 shadow-2xl" />
+
+                    <!-- 이름 -->
+                    <div>
+
+                        <h1 class="text-5xl font-bold tracking-tight">
+                            정성연
+                        </h1>
+
+                        <p class="text-zinc-400 mt-3 text-lg">
+                            Backend Developer
+                        </p>
+
+                    </div>
+
+                    <!-- 소개 -->
+                    <p class="text-zinc-500 leading-8 text-sm">
+
+                        Python / FastAPI / Docker 기반
+                        백엔드 개발 및 서버 인프라 구축 경험
+
+                    </p>
+
+                    <!-- 링크 -->
+                    <div class="flex flex-wrap gap-3">
+
+                        <a href="#"
+                            class="px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition">
+                            GitHub
+                        </a>
+
+                        <a href="#"
+                            class="px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition">
+                            Blog
+                        </a>
+
+                        <a href="#"
+                            class="px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-600 transition">
+                            Email
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- ================================================= -->
+            <!-- RIGHT CONTENT -->
+            <!-- ================================================= -->
+            <main class="space-y-24">
+
+                <!-- ================================================= -->
+                <!-- 자기소개 -->
+                <!-- ================================================= -->
+                <section class="space-y-6">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        자기소개
+                    </h2>
+
+                    <div class="bg-zinc-900/50 border border-zinc-800 rounded-3xl p-8">
+
+                        <p class="text-zinc-300 leading-8">
+
+                            여기에 자기소개 작성
+
+                        </p>
+
+                    </div>
+
+                </section>
+
+                <!-- ================================================= -->
+                <!-- 스킬 -->
+                <!-- ================================================= -->
+                <section class="space-y-8">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        기술 스택
+                    </h2>
+
+                    <!-- 그룹 -->
+                    <div class="space-y-8">
+
+                        <!-- Backend -->
+                        <div>
+
+                            <h3 class="text-lg font-medium mb-4 text-zinc-300">
+                                Backend
+                            </h3>
+
+                            <div class="flex flex-wrap gap-3">
+
+                                <span class="skill">Python</span>
+                                <span class="skill">FastAPI</span>
+                                <span class="skill">Java</span>
+                                <span class="skill">Spring</span>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Infra -->
+                        <div>
+
+                            <h3 class="text-lg font-medium mb-4 text-zinc-300">
+                                Infra
+                            </h3>
+
+                            <div class="flex flex-wrap gap-3">
+
+                                <span class="skill">Docker</span>
+                                <span class="skill">Linux</span>
+                                <span class="skill">Nginx</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ================================================= -->
+                <!-- 경험 -->
+                <!-- ================================================= -->
+                <section class="space-y-8">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        경험
+                    </h2>
+
+                    <!-- 카드 -->
+                    <div class="card">
+
+                        <!-- 상단 -->
+                        <div class="flex justify-between items-start gap-4 mb-6">
+
+                            <div>
+
+                                <h3 class="text-xl font-semibold">
+                                    Backend Developer
+                                </h3>
+
+                                <p class="text-zinc-500 mt-1">
+                                    회사 이름
+                                </p>
+
+                            </div>
+
+                            <span class="text-sm text-zinc-500 whitespace-nowrap">
+                                2024 - Present
+                            </span>
+
+                        </div>
+
+                        <!-- 설명 -->
+                        <p class="text-zinc-300 leading-8 mb-6">
+
+                            어떤 업무를 했는지 작성
+
+                        </p>
+
+                        <!-- 리스트 -->
+                        <ul class="space-y-3 text-zinc-400">
+
+                            <li>
+                                • FastAPI 기반 API 서버 개발
+                            </li>
+
+                            <li>
+                                • Docker Compose 기반 배포 환경 구축
+                            </li>
+
+                            <li>
+                                • 사내 라이브러리 시스템 관리
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </section>
+
+                <!-- ================================================= -->
+                <!-- 프로젝트 -->
+                <!-- ================================================= -->
+                <section class="space-y-8">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        프로젝트
+                    </h2>
+
+                    <div class="card">
+
+                        <div class="flex justify-between items-start gap-4 mb-6">
+
+                            <div>
+
+                                <h3 class="text-xl font-semibold">
+                                    프로젝트 이름
+                                </h3>
+
+                                <p class="text-zinc-500 mt-1">
+                                    개인 프로젝트 / 석사 프로젝트
+                                </p>
+
+                            </div>
+
+                            <span class="text-sm text-zinc-500">
+                                2025
+                            </span>
+
+                        </div>
+
+                        <p class="text-zinc-300 leading-8 mb-6">
+
+                            프로젝트 개요 작성
+
+                        </p>
+
+                        <ul class="space-y-3 text-zinc-400 mb-6">
+
+                            <li>
+                                • 어떤 기능을 구현했는지
+                            </li>
+
+                            <li>
+                                • 어떤 문제를 해결했는지
+                            </li>
+
+                            <li>
+                                • 어떤 기술을 사용했는지
+                            </li>
+
+                        </ul>
+
+                        <!-- 기술 -->
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="skill">Python</span>
+                            <span class="skill">Docker</span>
+                            <span class="skill">PostgreSQL</span>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ================================================= -->
+                <!-- 오픈소스 -->
+                <!-- ================================================= -->
+                <section class="space-y-8">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        오픈소스
+                    </h2>
+
+                    <div class="card">
+
+                        <h3 class="text-xl font-semibold">
+                            repository-name
+                        </h3>
+
+                        <p class="text-zinc-500 mt-1 mb-6">
+                            github.com/your/repository
+                        </p>
+
+                        <p class="text-zinc-300 leading-8 mb-6">
+
+                            오픈소스 설명 작성
+
+                        </p>
+
+                        <ul class="space-y-3 text-zinc-400">
+
+                            <li>
+                                • 어떤 기능을 만들었는지
+                            </li>
+
+                            <li>
+                                • 어떤 문제를 해결했는지
+                            </li>
+
+                            <li>
+                                • 사용자가 얼마나 되는지
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </section>
+
+                <!-- ================================================= -->
+                <!-- 기타 -->
+                <!-- ================================================= -->
+                <section class="space-y-8">
+
+                    <h2 class="text-2xl font-semibold tracking-tight">
+                        기타
+                    </h2>
+
+                    <div class="card">
+
+                        <ul class="space-y-4 text-zinc-300">
+
+                            <li>
+                                • 정보처리기사
+                            </li>
+
+                            <li>
+                                • 논문 게재
+                            </li>
+
+                            <li>
+                                • 기술 발표 경험
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <!-- ===================================================== -->
+    <!-- Tailwind 재사용 클래스 -->
+    <!-- ===================================================== -->
+    <style>
+        .card {
+            @apply bg-zinc-900/50 border border-zinc-800 rounded-3xl p-8 hover:border-zinc-700 transition;
+        }
+
+        .skill {
+            @apply px-4 py-2 rounded-xl bg-zinc-900 border border-zinc-800 text-sm text-zinc-300 hover:border-zinc-600 transition;
+        }
+    </style>
+
+</body>
+
+</html>
