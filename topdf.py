@@ -19,10 +19,10 @@ with sync_playwright() as p:
         format="A4",
         print_background=True,
         margin={
-            "top": "18mm",
-            "bottom": "18mm",
-            "left": "16mm",
-            "right": "16mm"
+            "top": "12mm",
+            "bottom": "12mm",
+            "left": "12mm",
+            "right": "12mm"
         }
     )
 
