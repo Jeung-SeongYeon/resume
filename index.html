@@ -239,7 +239,7 @@
                             <div>
 
                                 <h3 class="text-xl font-semibold">
-                                    AI Researcher
+                                    AI Research Engineer
                                 </h3>
 
                                 <p class="text-zinc-500 mt-1">
@@ -255,56 +255,40 @@
                         </div>
 
                         <!-- 설명 -->
-                        <!-- <p class="text-zinc-700 leading-8 mb-6">
+                        <p class="text-zinc-700 leading-8 mb-6">
 
-                            공동주택관리 AI 플랫폼
-                            <span class="inline-flex items-center gap-2 align-middle">
+                            해양경찰 업무 지원을 위한 온톨로지 및 지식그래프 기반 AI 시스템 연구개발을 수행하고 있습니다.
+                            비정형 업무기록을 구조화하여 지식그래프로 변환하는 파이프라인과 AI 사용 이력을 실제 업무 맥락에 연결하는 
+                            데이터 모델을 설계했습니다. 
+                            또한 AI 서비스의 사용 로그를 분석하여 실패 원인을 조사하고, 
+                            재학습이 필요한 지식을 식별하는 AI 시스템을 설계하고 있습니다.
 
-                                <span class="text-zinc-900 font-medium">
-                                    <a href="https://aptcare.aptners.com/" target="_blank">
-                                        아파트케어 ↗
-                                    </a>
-                                </span>
-
-                            </span>
-                            개발 및 운영을 담당하며,
-                            AI 비서·멀티모달 채팅·문서 자동화 기능 등
-                            LLM 기반 핵심 서비스를 설계하고 구현했습니다.
-
-                            단순 기능 구현을 넘어,
-                            서비스 확장성과 운영 안정성,
-                            그리고 일관된 AI 품질을 유지할 수 있는 구조 설계에 집중했습니다.
-
-                        </p> -->
+                        </p> 
 
                         <!-- 리스트 -->
-                        <!-- <ul class="space-y-4 text-zinc-600 mb-6">
+                        <ul class="space-y-4 text-zinc-600 mb-6">
 
                             <li>
-                                • 공동주택관리 AI 비서 시스템
+                                • LLM 기반 비정형 업무기록 구조화 및 RDF 지식그래프 생성 파이프라인 개발
                             </li>
 
                             <li>
-                                • 공고문 자동 작성 시스템
+                                • GraphDB·SPARQL 기반 온톨로지 탐색 및 업무 맥락 조회 기능 개발
                             </li>
 
                             <li>
-                                • 멀티모달 채팅 시스템
+                                • AI 사용 로그와 업무 수행 이력을 연계하는 지식그래프 구조 설계
                             </li>
 
                             <li>
-                                • LLM 모니터링 및 평가 시스템
+                                • AI 서비스 실패 원인 분석 및 재학습 필요 지식 식별 시스템 PoC 설계
                             </li>
 
                             <li>
-                                • 사내 Python 보일러플레이트 구축
+                                • CDX 프로젝트의 AI 시스템 아키텍처 및 데이터 모델 설계
                             </li>
 
-                            <li>
-                                • AI 코드리뷰 도입
-                            </li>
-
-                        </ul> -->
+                        </ul> 
 
                     </div>
 
@@ -725,6 +709,78 @@
                             <span class="skill">LLM</span>
                             <span class="skill">FastAPI</span>
                             <span class="skill">Prompt Engineering</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ================================================= -->
+                    <!-- 백엔드 아키텍처 구성 -->
+                    <!-- ================================================= -->
+                    <div class="card">
+
+                        <div class="flex justify-between items-start gap-4 mb-6">
+
+                            <div>
+
+                                <h3 class="text-xl font-semibold">
+                                    백엔드 아키텍처 리팩터링 및 의존성 관리 체계 개선
+                                </h3>
+
+                                <p class="text-zinc-500 mt-1">
+                                    아파트너스 · Backend / Infra
+                                </p>
+
+                            </div>
+
+                            <span class="text-sm text-zinc-500">
+                                2025.07 - 2025.09
+                            </span>
+
+                        </div>
+
+                        <p class="text-zinc-700 leading-8 mb-6">
+
+                            서비스 간 의존성과 프레임워크 결합도를 최소화하기 위해
+                            비즈니스 행위(Use Case) 중심으로 백엔드 아키텍처를 재설계했습니다.
+                            트랜잭션 관리 구조 개선과 개발 표준 수립을 통해
+                            모듈 독립성, 코드 재사용성 및 유지보수성을 강화했습니다.
+
+                        </p>
+
+                        <ul class="space-y-3 text-zinc-600 mb-6">
+
+                            <li>
+                                • Use Case 중심의 서비스 책임 분리 및 서비스 간 직접 의존성을 제한하는 아키텍처 설계
+                            </li>
+
+                            <li>
+                                • 프레임워크와 비즈니스 로직의 의존성 분리 및 공통 유틸리티 재사용 구조 개선
+                            </li>
+
+                            <li>
+                                • Unit of Work 패턴 도입을 통한 다중 Repository 트랜잭션 통합 및 동적 트랜잭션 경계 제어
+                            </li>
+
+                            <li>
+                                • UoW Factory와 인스턴스의 책임 분리를 통해 요청 및 로직 단위의 트랜잭션 생명주기 관리 지원
+                            </li>
+
+                            <li>
+                                • 모듈 간 의존성 규칙과 코드 컨벤션 수립 및 약 3개월간 코드 리뷰 주도를 통한 개발 표준 적용 지원
+                            </li>
+
+                        </ul>
+
+                        <!-- 기술 및 설계 키워드 -->
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="skill">Backend Architecture</span>
+                            <span class="skill">Clean Architecture</span>
+                            <span class="skill">Unit of Work</span>
+                            <span class="skill">Repository Pattern</span>
+                            <span class="skill">Use Case Design</span>
+                            <span class="skill">Code Review</span>
 
                         </div>
 
